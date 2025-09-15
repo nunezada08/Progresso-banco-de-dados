@@ -9,3 +9,9 @@ CREATE TABLE artistas (
     ativo BOOLEAN DEFAULT TRUE
 );
 
+INSERT INTO artistas (nome, tipo, genero_musical, pais_origem, ano_inicio, musica_mais_ouvida, ativo)
+VALUES
+('Coldplay', 'banda', 'Rock', 'Reino unido', 1996, 'Yellow', TRUE),
+('Pierce the veil', 'banda', 'Rock', 'Estados unidos', 2006, 'King For A Day', TRUE),
+('Nirvana', 'banda', 'Rock', 'Estados unidos', 1987, 'Smells Like Teen Spirit', FALSE )
+;
