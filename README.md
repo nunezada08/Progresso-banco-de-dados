@@ -55,5 +55,9 @@ Este banco de dados está em constante evolução. Abaixo estão as principais a
 ('TestAccount2', 'test2@email.com', 0, '2024-03-18'),
 ('AdminTest', 'admin@email.com', 0, '2024-03-20');
 
+SELECT * FROM usuarios;
+
+UPDATE usuarios SET username = 'ProGamer2025'
+WHERE username = 'NoobMaster';
 
  ```
